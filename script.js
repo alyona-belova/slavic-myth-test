@@ -235,7 +235,7 @@ function showQuestion() {
     ) {
       const audioButton = document.createElement("button");
       audioButton.className = "audio-btn";
-      audioButton.textContent = "🎵";
+      audioButton.textContent = "♫";
 
       audioButton.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -293,7 +293,7 @@ function showResult() {
         </div>
 
         <div class="result-card main-card">
-          <img src="${result.image}" alt="${result.title}" class="result-image">
+          <img src="${result.image}" alt="${result.title}" rel="preload" class="result-image">
         </div>
       </div>
 
