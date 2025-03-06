@@ -35,7 +35,7 @@ const questions = [
     answers: [
       { text: "Воздух – лёгкий, неуловимый и свободный", type: "A" },
       {
-        text: "Земля – надёжная, могущественная, с секретами под поверхностью",
+        text: "Земля – надёжная, могущественная, с секретами вглубине",
         type: "B",
       },
       {
@@ -43,7 +43,7 @@ const questions = [
         type: "C",
       },
       {
-        text: "Гроза – яркая, стремительная, не останавливающая ни перед чем",
+        text: "Гроза – яркая, стремительная, не останавливающаяся ни перед чем",
         type: "D",
       },
     ],
@@ -293,7 +293,9 @@ function showResult() {
         </div>
 
         <div class="result-card main-card">
-          <img src="${result.image}" alt="${result.title}" rel="preload" class="result-image">
+          <img src="${result.image}" alt="${
+    result.title
+  }" rel="preload" class="result-image">
         </div>
       </div>
 
