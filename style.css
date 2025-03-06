@@ -47,6 +47,7 @@ h1 {
   font-size: 2rem;
   padding: 10px;
   color: white;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 #question {
@@ -81,6 +82,7 @@ h1 {
 
 .result-container h2 {
   margin: 0;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 .result-container p {
@@ -111,11 +113,13 @@ h1 {
 
 .traits-card {
   background: #f2be99;
+  font-family: "Nunito", sans-serif;
 }
 
 .superpower-card {
   background: #c04b26;
   color: white;
+  font-family: "Nunito", sans-serif;
 }
 
 .result-image {
