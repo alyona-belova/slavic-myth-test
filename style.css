@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #7dab93, #bf947e);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#intro-container {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 20px auto;
+  background: #fff3df;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#start-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #a74732;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#start-btn:hover {
+  background: #d81609;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff3df;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.answer-btn {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background: #7aa37c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.answer-btn:hover {
+  background: #009203;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+}
+
+.result-container h2 {
+  margin: 0;
+}
+
+.result-container p {
+  margin: 5px 0;
+}
+
+.card-row {
+  display: flex;
+  gap: 10px;
+}
+
+.result-card {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-card {
+  background: #4a2545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.traits-card {
+  background: #f2be99;
+}
+
+.superpower-card {
+  background: #c04b26;
+  color: white;
+}
+
+.result-image {
+  max-width: 300px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.card-image {
+  width: 300px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.answer-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.audio-btn {
+  cursor: pointer;
+  background: #f2be99;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
