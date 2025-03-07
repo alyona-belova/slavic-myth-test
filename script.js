@@ -300,7 +300,7 @@ function showResult() {
       </div>
 
       <div class="result-card superpower-card">
-        <p>Суперспособность: ${result.superpower}</p>
+        <p><b>Суперспособность:</b> ${result.superpower}</p>
       </div>
     </div>
   `;
